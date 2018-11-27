@@ -1,0 +1,72 @@
+$color-principal: #500;
+$color-secundario: pink;
+$tamaño-caja: 27%;
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family:sans-serif;
+
+}
+body{
+  background: $color-principal
+}
+.imagen{
+	  background: $color-secundario;
+	  width: $tamaño-caja;
+	  height: $tamaño-caja;
+	  float: left;
+	  margin-left: 50px;
+	  position:relative;
+	  top:30px;
+	  left:30px;
+	  border-radius: 5em 1em 5em ;
+
+
+	  img{
+		  width: 100%;
+		  &:hover{
+		  transform: scale(2)
+		  }
+	  }
+	  &:hover{
+	  		background: grey;
+	  }
+}
+nav {
+
+	background: #000;
+	width: 100%;
+	height: 40px;
+
+	ul{
+	text-align:center;
+		li{
+		display: inline-block;
+		
+
+			a{
+			font-size:25px;
+			margin-left: 10px;
+			color: white;
+			text-decoration:none;
+			position:relative;
+			top:6px;
+			}
+
+		}
+
+	}
+	
+}
+header{
+	figure{
+		img{
+		position:relative;
+		left:500px;
+		width: 170px;
+
+
+	}
+  }
+}

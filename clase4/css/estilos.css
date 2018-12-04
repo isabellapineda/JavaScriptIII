@@ -1,0 +1,19 @@
+
+[id*="div"]{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+img{
+    position: relative;
+}
+
+div{
+   display: inline-block;
+}
+#contenedor{
+    height: 400;
+    width: 400;
+    position: relative;
+    left: 400px;
+}
